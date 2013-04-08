@@ -26,7 +26,7 @@ It's a work in progress - nothing yet there committed - however I have already o
           sid:si                          //session id
       })
 
-It can work on both MySQL, MongoDB or almost any other Relational/non relational backend 
+It can work on both MySQL, MongoDB or almost any other relational/non relational backend 
 
 Above component would be the main part of work. There is a lot of development to make it fully functional (handling of aggregations, sorting, subdocument filters, inserts/updates/deletes, maybe also joins etc) End effect seems to be very promissing in general. 
 
