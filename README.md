@@ -5,7 +5,7 @@ nSQLServer
 
 nSQLServer project is a result of some research on possibilities to access different databases in unique form using kind of "Database Hub" or "Proxy"
 
-It's compilation of two projects: - a MongoDB fork (slightly extended MongoDB version by some "nSQL" commands) - a fork of SQLRelay project (relational DB proxy handling many SQL backends)
+It's compilation of two projects: - a MongoDB fork (slightly extended MongoDB version by some "nSQL" commands) and a fork of SQLRelay project (relational DB proxy handling many SQL backends)
 
 
 Currently it is in a pre-prototype stage. 
