@@ -15,16 +15,16 @@ https://github.com/virtimus/nsqlserver
 
 It's a work in progress - nothing yet there committed - however I have already offline w protype version which processes simple nSQL queries of the form:
 
-  db.runCommand(
-    {nsQL:
-        {
-           sel:['id','emailUse','emailType','emailSubject'],    // properties/colums to return
-           flt:{emailUse:0,emailType:'test'},           // filter (where phrase equivalent)
-           ctb:'wp_eshop_emails'                // table equivalent (can be agregated in collection as path)
-        },
-        cid:ci,                         //connection id
-        sid:si                          //session id
-    })
+    db.runCommand(
+      {nsQL:
+          {
+             sel:['id','emailUse','emailType','emailSubject'],    // properties/colums to return
+             flt:{emailUse:0,emailType:'test'},           // filter (where phrase equivalent)
+             ctb:'wp_eshop_emails'                // table equivalent (can be agregated in collection as path)
+          },
+          cid:ci,                         //connection id
+          sid:si                          //session id
+      })
 
 It can work on both MySQL, MongoDB or almost any other Relational/non relational backend 
 
